@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <title>Minute Memories</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" width="125px">
+            </div>
+
+            <div class="menu">
+                <input type="checkbox" id="toggle">
+                <div class="hamburger"></div>
+                <ul class="menu-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <section class="content" style="background-image: url('img/nature_view.png');">
+            <h1>Life Is Short.<br>Capture Every Moment.</h1>
+            <p>Get Your Own Camera Today</p>
+        </section>
+        
+        <h1 class="pheading">Our Latest Products</h1>
+
+        <section class="sec">
+            <div class="products">
+                
+                <!-- card start -->
+                <div class="card">
+                    <div class="img"><img src="img/sony_cybershot.png" onclick="openModal();currentSlide(1)" class="hover-shadow"></div>
+                    <div class="desc">Digital Camera</div>
+                    <div class="title">Sony Cybershot DSCW55 7.2MP</div>
+                    <div class="box">
+                        <div class="price">$0</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- card end -->
+
+                <!-- card start -->
+                <div class="card">
+                    <div class="img"><img src="img/canon_ae.png" onclick="openModal();currentSlide(2)" class="hover-shadow"></div>
+                    <div class="desc">Film Camera</div>
+                    <div class="title">Canon AE-1</div>
+                    <div class="box">
+                        <div class="price">$0</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- card end -->
+
+                <!-- card start -->
+                <div class="card">
+                    <div class="img"><img src="img/polaroid.png" onclick="openModal();currentSlide(3)" class="hover-shadow"></div>
+                    <div class="desc">Instant Camera</div>
+                    <div class="title">Polaroid</div>
+                    <div class="box">
+                        <div class="price">$0</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- card end -->
+
+                <!-- card start -->
+                <div class="card">
+                    <div class="img"><img src="img/instax.png" onclick="openModal();currentSlide(4)" class="hover-shadow"></div>
+                    <div class="desc">Instant Camera</div>
+                    <div class="title">Instax Mini 11</div>
+                    <div class="box">
+                        <div class="price">$0</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- card end -->
+
+                <!-- card start -->
+                <div class="card">
+                    <div class="img"><img src="img/gopro_hero7.png" onclick="openModal();currentSlide(5)" class="hover-shadow"></div>
+                    <div class="desc">Action Camera</div>
+                    <div class="title">GoPro HERO7</div>
+                    <div class="box">
+                        <div class="price">$0</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- card end -->
+
+                <!-- card start -->
+                <div class="card">
+                    <div class="img"><img src="img/lumix2.png" onclick="openModal();currentSlide(6)" class="hover-shadow"></div>
+                    <div class="desc">Bridge Camera</div>
+                    <div class="title">Lumix</div>
+                    <div class="box">
+                        <div class="price">$0</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- card end -->
+
+                <!-- card start -->
+                <div class="card">
+                    <div class="img"><img src="img/canon_mirrorless.png" onclick="openModal();currentSlide(7)" class="hover-shadow"></div>
+                    <div class="desc">Mirrorless Camera</div>
+                    <div class="title">Canon EOS M6</div>
+                    <div class="box">
+                        <div class="price">$0</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- card end -->
+
+                <!-- card start -->
+                <div class="card">
+                    <div class="img"><img src="img/compact_lumix.png" onclick="openModal();currentSlide(8)" class="hover-shadow"></div>
+                    <div class="desc">Compact Camera</div>
+                    <div class="title">Panasonic Lumix DC-ZS70</div>
+                    <div class="box">
+                        <div class="price">$0</div>
+                        <button class="btn">Buy Now</button>
+                    </div>
+                </div>
+                <!-- card end -->
+            </div>
+        </section>
+        
+        <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+            <div class="slides">
+                <div class="numbertext">1 / 8</div>
+                <img src="img/sony_cybershot.png" style="width: 100%">
+            </div>
+
+            <div class="slides">
+                <div class="numbertext">2 / 8</div>
+                <img src="img/canon_ae.png" style="width: 100%">
+            </div>
+
+            <div class="slides">
+                <div class="numbertext">3 / 8</div>
+                <img src="img/polaroid.png" style="width: 100%">
+            </div>
+
+            <div class="slides">
+                <div class="numbertext">4 / 8</div>
+                <img src="img/instax.png" style="width: 100%">
+            </div>
+            
+            <div class="slides">
+                <div class="numbertext">5 / 8</div>
+                <img src="img/gopro_hero7.png" style="width: 100%">
+            </div>
+            
+            <div class="slides">
+                <div class="numbertext">6 / 8</div>
+                <img src="img/lumix2.png" style="width:100%">
+            </div>
+            
+            <div class="slides">
+                <div class="numbertext">7 / 8</div>
+                <img src="img/canon_mirrorless.png" style="width:100%">
+            </div>
+            
+            <div class="slides">
+                <div class="numbertext">8 / 8</div>
+                <img src="img/compact_lumix.png" style="width:100%">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+        </div>
+
+        <footer>
+            <p>Copyright © <a href="">Minute Memories</a></p>
+        </footer>
+    </body>
+</html>
