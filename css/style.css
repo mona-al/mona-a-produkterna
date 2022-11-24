@@ -206,19 +206,22 @@ nav {
 .contact-content {
     background-size: cover;
     background-repeat: no-repeat;
-    
     padding: 0 5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
-    color: #424144;
+    align-items: center;
     height: 90vh;
     text-align: center;
 }
 
+.contact-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
 .contact-info {
-    width: 100%;
+    width: 500px;
     display: block;
     justify-content: center;
     flex-wrap: wrap;
@@ -237,19 +240,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    /*
-    flex: 1;
-    flex-direction: column;
-    max-width: 300px;
-    height: 140px;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin: 20px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;*/
 }
 
 .card-content {
@@ -280,12 +270,12 @@ nav {
 .card-content h3 {
     top: 20px;
     text-transform: uppercase;
-    color: rgb(0, 115, 27);
+    color: #424144;
 }
 
 .card-content span {
     bottom: 20px;
-    color: rgb(0, 115, 27);
+    color: #424144;
     font-weight: 500;
 }
 
