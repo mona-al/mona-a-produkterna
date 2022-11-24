@@ -147,7 +147,6 @@ nav {
 }
 
 .content {
-
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0 5%;
@@ -168,7 +167,6 @@ nav {
 .about-content {
     background-size: cover;
     background-repeat: no-repeat;
-    
     padding: 0 5%;
     display: flex;
     flex-direction: column;
@@ -188,7 +186,6 @@ nav {
 .card-info {
     padding: 100px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
     width: 40%;
     background-color: white;
 }
@@ -329,7 +326,6 @@ nav {
 .products .card img {
     height: 250px;
     width: 100%;
-
 }
 
 .products .card .desc {
@@ -348,7 +344,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    
 }
 
 .products .card .box .price {
@@ -475,6 +470,35 @@ img.hover-shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+.documentation {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: #424144;
+    height: 90vh;
+    text-align: center;
+}
+
+.problem-list {
+    text-align: center;
+}
+
+.problem-info {
+    
+    display: grid;
+    padding: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: auto;
+    width: 450px;
+    background-color: white;
+    margin-bottom: 50px;
+}
 
 /* footer */
 
